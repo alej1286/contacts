@@ -1,5 +1,30 @@
 # Getting Started with Create React App
 
+
+
+npm i -g @aws-amplify/cli
+amplify --version
+npx create-react-app contacts
+npm i react-bootstrap bootstrap
+npm i react-router-dom
+
+amplify init
+amplify add auth
+amplify status
+amplify push
+amplify add storage
+amplify add api
+
+# edit GraphQL schema
+
+amplify push
+amplify publish
+
+amplify delete
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
